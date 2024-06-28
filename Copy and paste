@@ -1,0 +1,32 @@
+{words: [''], reply: ''},
+
+Listen here Daniel Dad will not tolerate that behavior in the server!
+
+{
+question: "",
+    answer: ""
+},
+
+
+
+
+
+
+
+
+
+if(message.content == "") {
+    message.channel.send(``);
+  }
+
+
+client.on('message', async msg => {
+  // List of messages to check for
+  const messagesToCheck = [''];
+  if (msg.author.bot) return;
+  if (messagesToCheck.some(word => msg.content.toLowerCase().includes(word)) &&
+      (Date.now() - lastReplyTime) > 10000) {
+    await msg.reply('');
+    lastReplyTime = Date.now();
+  }
+});
