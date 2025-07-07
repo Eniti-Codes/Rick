@@ -1,5 +1,7 @@
+# DEPRECATED
+This means I am no longer going to actively develop, fix, or maintain this project. Sorry. I just lost all interest.
+
 # Rick
-This bot is no longer being maintained!
 Are you looking for a Rick roll bot, and easy to host bot? Well you found them. Rick is one of the best interactive bots for Discord. Dveloped by one developer. made in Discord JS version 11.4.2 Just follow the instructions provided underneath!
 
 # Getting Started!
